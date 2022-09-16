@@ -1,1 +1,16 @@
-/* CSS Style Sheet */
+html {
+    background: url("img/pexels-element-digital-1470171.jpg")no-repeat center fixed;
+    background-size: cover;
+}
+
+ul {
+    text-align: left;
+}
+
+div {
+    margin-left: 250px;
+}
+
+.about-t {
+    margin-left: 250px;
+}
