@@ -5,12 +5,81 @@ html {
 
 ul {
     text-align: left;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: rgba(177, 198, 183, 0.5);
+    width: 200px;
+    border-radius: 0px 12px 12px 0px;
 }
 
 div {
     margin-left: 250px;
 }
 
-.about-t {
-    margin-left: 250px;
+
+.first {
+    margin-bottom: 300px;
+}
+
+div {
+
+    background-color: rgba(255, 255 , 255, 0.7);
+    padding: 30px;
+    border-radius: 12px;
+    width: auto;
+    length: auto;
+}
+
+.title {
+    font-size: 70px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    text-align: center;
+     color: rgb(69, 78, 87);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: rgb(90, 122, 91);
+}
+
+h2 {
+    color: rgb(111, 145, 112);
+}
+
+h3 {
+    color: rgb(122, 149, 123);
+}
+
+button {
+    background-color: rgba(90, 122, 91, 0.5);
+    text-align: center;
+    padding:20px ;
+    font-size: medium;
+    border-radius: 8px;
+    color: rgb(69, 78, 87)
+    
+}
+
+button:hover {
+    background-color: rgba(122, 149, 123,0.5);
+    cursor: pointer;
+}
+
+img {
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+
+a {
+    color: rgb(48, 45, 97);
+    
+}
+
+a.hover {
+    color: rgb(122, 149, 123);
 }
