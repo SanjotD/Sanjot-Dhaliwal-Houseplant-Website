@@ -5,11 +5,40 @@ html {
 
 ul {
     text-align: left;
+    color: rgb(122, 149, 123);
     margin-bottom: 30px;
     padding: 30px;
     background-color: rgba(177, 198, 183, 0.5);
     width: 200px;
     border-radius: 0px 12px 12px 0px;
+    font-size:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    
+}
+
+ul:hover {
+    color: rgb(139, 164, 187);
+}
+
+a {
+    color: rgb(91, 98, 105);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(107, 134, 117);
+}
+
+li {
+    margin: 15px;
+    margin-right: 10px;
+}
+
+li:hover {
+    color: rgb(100, 124, 112);
 }
 
 div {
@@ -17,22 +46,22 @@ div {
 }
 
 
-.first {
-    margin-bottom: 300px;
-}
+
 
 div {
 
-    background-color: rgba(255, 255 , 255, 0.7);
-    padding: 30px;
-    border-radius: 12px;
+    background-color: rgba(211, 219, 213, 0.411);
+    padding: 30px 30px;
+    border-radius: 18px;
     width: auto;
-    length: auto;
+    
+
 }
 
 .title {
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
+    margin-left: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -40,10 +69,12 @@ p {
     text-align: center;
      color: rgb(69, 78, 87);
      font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 18px;
 }
 
 h1 {
-    color: rgb(90, 122, 91);
+    color: rgb(59, 68, 68);
+
 }
 
 h2 {
@@ -70,16 +101,38 @@ button:hover {
 }
 
 img {
-    border-radius: 8px;
-    padding: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    width: auto;
     
 }
 
 a {
-    color: rgb(48, 45, 97);
+    color: rgb(59, 85, 70);
     
 }
 
-a.hover {
+a:hover {
     color: rgb(122, 149, 123);
 }
+
+.text {
+    background-color: rgb(218, 223, 217);
+    padding: 50px;
+    border-radius: 12px;
+}
+
+body {
+    padding: 50px;
+}
+
+input {
+    width: 100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
