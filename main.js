@@ -44,7 +44,7 @@ if (secondQuestEl == "99%" || secondQuestEl == "99"|| secondQuestEl == " 99"|| s
  }
 
 
-if (thirdQuestEl === "no" || secondQuestEl === "nope"|| secondQuestEl === "n"){
+if (thirdQuestEl === "no" || thirdQuestEl === "nope"|| thirdQuestEl === "n"){
     score++;
     document.getElementById("box3").src = "img/checkedbox.jpg";
     console.log(score);
@@ -53,7 +53,7 @@ if (thirdQuestEl === "no" || secondQuestEl === "nope"|| secondQuestEl === "n"){
 }
 
 
-if (fourthQuestEl == "66%" || secondQuestEl == "66"|| secondQuestEl == " 66" || secondQuestEl == "66"){
+if (fourthQuestEl == "66%" || fourthQuestEl == "66"|| fourthQuestEl == " 66" || fourthQuestEl == "66"){
     score++;
     document.getElementById("box4").src = "img/checkedbox.jpg";
     console.log(score);
@@ -75,15 +75,17 @@ if (fourthQuestEl == "66%" || secondQuestEl == "66"|| secondQuestEl == " 66" || 
 // }
 
 
-let outOfScoreEl =
- (score <=4);
+
+
  
 
 let percentScoreEl =
  ((score) / 4) * 100;
 
+ console.log(outOfScoreEl)
 
-if (outOfScoreEl = 2) {
+
+if (outOfScoreEl <= 2) {
     outputMessageEl.innerHTML = ("Not bad!");
 }
 
@@ -102,9 +104,9 @@ else {
 
 
 //Output
+
 document.getElementById("outOfScore").innerHTML = outOfScoreEl;
 document.getElementById("percentScore").innerHTML = percentScoreEl.toFixed();
-
 
 
 
