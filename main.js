@@ -19,7 +19,7 @@ function calculateScore() {
         let firstQuestEl = document.getElementById("peaceQuest").value.toLowerCase();
         let secondQuestEl = +document.getElementById("aloeQuest").value;
         let thirdQuestEl = document.getElementById("lemonQuest").value.toLowerCase();
-        let fourthQuestEl = document.getElementById("houseQuest").value.toLowerCase();
+        let fourthQuestEl = +document.getElementById("houseQuest").value;
 
        
 
@@ -30,37 +30,43 @@ if (firstQuestEl === "no" || firstQuestEl === "nope"|| firstQuestEl === "n"){
     score++;
     console.log(score);
     document.getElementById("box1").src = "img/checkedbox.jpg";
-}else {
+} else {
     document.getElementById("box1").src = "img/xmarkcheckedbox.jpg"
 }
 
-if (secondQuestEl == "99%" || secondQuestEl == "99"|| secondQuestEl == " 99"|| secondQuestEl == "99 "){
 
+if (secondQuestEl == "99%" || secondQuestEl == "99"|| secondQuestEl == " 99"|| secondQuestEl == "99 "){
     score++;
     console.log(score);
     document.getElementById("box2").src = "img/checkedbox.jpg";
+} else {
+    document.getElementById("box2").src = "img/xmarkcheckedbox.jpg"
+ }
 
 
-
-}
 if (thirdQuestEl === "no" || secondQuestEl === "nope"|| secondQuestEl === "n"){
     score++;
+    document.getElementById("box3").src = "img/checkedbox.jpg";
     console.log(score);
-    
-
-}
- if (fourthQuestEl === "66%" || secondQuestEl === "66"|| secondQuestEl === " 66" || secondQuestEl === "66"){
-    score++;
-    console.log(score);
-
-}
-
-else {
-    
-    document.getElementById("box2").src = "img/xmarkcheckedbox.jpg"
+} else {
     document.getElementById("box3").src = "img/xmarkcheckedbox.jpg"
-    document.getElementById("box4").src = "img/xmarkcheckedbox.jpg"
 }
+
+
+if (fourthQuestEl == "66%" || secondQuestEl == "66"|| secondQuestEl == " 66" || secondQuestEl == "66"){
+    score++;
+    document.getElementById("box4").src = "img/checkedbox.jpg";
+    console.log(score);
+}else {  
+    document.getElementById("box4").src = "img/xmarkcheckedbox.jpg";
+}
+
+}
+
+
+
+
+
 // else {
 //     firstQuestEl = 0;
 //     secondQuestEl = 0;
@@ -100,7 +106,7 @@ document.getElementById("outOfScore").innerHTML = outOfScoreEl;
 document.getElementById("percentScore").innerHTML = percentScoreEl.toFixed();
 
 
-}
+
 
 
 // --------------------------------------------------------ATTEMPT 2
