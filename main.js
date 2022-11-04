@@ -4,7 +4,7 @@
  // Input
 
 
- // Variables
+        // Variables
 
 let outputMessageEl = document.getElementById("output");
 
@@ -57,8 +57,7 @@ if (fourthQuestEl == "66%" || fourthQuestEl == "66"|| fourthQuestEl == " 66" || 
     document.getElementById("box4").src = "img/xmarkcheckedbox.jpg";
 }
 
-console.log(score);
-
+// Output
 let percentScoreEl =
  ((score) / 4) * 100;
 
