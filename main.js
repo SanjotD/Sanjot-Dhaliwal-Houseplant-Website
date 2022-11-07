@@ -13,6 +13,10 @@ document.getElementById('btn').addEventListener('click', calculateScore);
 let score = 0;
 
 
+       
+// if (score <=0 ) {
+//     calculateScore
+// }
 
 function calculateScore() {
 // // Process
@@ -21,7 +25,6 @@ function calculateScore() {
         let thirdQuestEl = document.getElementById("lemonQuest").value.toLowerCase();
         let fourthQuestEl = +document.getElementById("houseQuest").value;
     
-       
 
 
 
