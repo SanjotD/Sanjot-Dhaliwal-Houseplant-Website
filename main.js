@@ -62,7 +62,6 @@ let percentScoreEl =
  ((score) / 4) * 100;
 
 let outOfScoreEl = (score)
- console.log(outOfScoreEl)
 
 
 if (outOfScoreEl <= 1) {
