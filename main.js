@@ -1,10 +1,10 @@
 // JavaScript Code
 
 
- // Input
 
+// Input
 
-        // Variables
+// Variables
 
 let outputMessageEl = document.getElementById("output");
 
@@ -14,9 +14,6 @@ let score = 0;
 
 
        
-// if (score <=0 ) {
-//     calculateScore
-// }
 
 function calculateScore() {
 // // Process
@@ -83,6 +80,8 @@ else if (outOfScoreEl <= 2){
 else if (outOfScoreEl <= 4) {
     outputMessageEl.innerHTML = ("Amazing Job!");
 }
+
+
 document.getElementById("outOfScore").innerHTML = outOfScoreEl;
 document.getElementById("percentScore").innerHTML = percentScoreEl.toFixed();
 
