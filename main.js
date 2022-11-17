@@ -4,7 +4,6 @@
 
 // Input
 
-// Variables
 
 let outputMessageEl = document.getElementById("output");
 
@@ -16,7 +15,7 @@ let score = 0;
        
 
 function calculateScore() {
-// // Process
+// Variables
         let firstQuestEl = document.getElementById("peaceQuest").value.toLowerCase();
         let secondQuestEl = +document.getElementById("aloeQuest").value;
         let thirdQuestEl = document.getElementById("lemonQuest").value.toLowerCase();
@@ -25,12 +24,12 @@ function calculateScore() {
 
 
 
-
+// Process
 if (firstQuestEl === "no" || firstQuestEl === "nope"|| firstQuestEl === "n"){ 
     score++;
     document.getElementById("box1").src = "img/checkedbox.jpg";
 } else {
-    document.getElementById("box1").src = "img/xmarkcheckedbox.jpg"
+    document.getElementById("box1").src = "img/xmarkcheckedbox.jpg";
 }
 
 
@@ -38,7 +37,7 @@ if (secondQuestEl == "99%" || secondQuestEl == "99"|| secondQuestEl == " 99"|| s
     score++;
     document.getElementById("box2").src = "img/checkedbox.jpg";
 } else {
-    document.getElementById("box2").src = "img/xmarkcheckedbox.jpg"
+    document.getElementById("box2").src = "img/xmarkcheckedbox.jpg";
  }
 
 
@@ -46,7 +45,7 @@ if (thirdQuestEl === "no" || thirdQuestEl === "nope"|| thirdQuestEl === "n"){
     score++;
     document.getElementById("box3").src = "img/checkedbox.jpg";
 } else {
-    document.getElementById("box3").src = "img/xmarkcheckedbox.jpg"
+    document.getElementById("box3").src = "img/xmarkcheckedbox.jpg";
 }
 
 
@@ -61,7 +60,7 @@ if (fourthQuestEl == "66%" || fourthQuestEl == "66"|| fourthQuestEl == " 66" || 
 let percentScoreEl =
  ((score) / 4) * 100;
 
-let outOfScoreEl = (score)
+let outOfScoreEl = (score);
 
 
 if (outOfScoreEl <= 1) {
