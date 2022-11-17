@@ -56,7 +56,7 @@ if (fourthQuestEl == "66%" || fourthQuestEl == "66"|| fourthQuestEl == " 66" || 
     document.getElementById("box4").src = "img/xmarkcheckedbox.jpg";
 }
 
-// Output
+// Calculations and Feedback
 let percentScoreEl =
  ((score) / 4) * 100;
 
@@ -79,7 +79,7 @@ else if (outOfScoreEl <= 4) {
     outputMessageEl.innerHTML = ("Amazing Job!");
 }
 
-
+// Output
 document.getElementById("outOfScore").innerHTML = outOfScoreEl;
 document.getElementById("percentScore").innerHTML = percentScoreEl.toFixed();
 
