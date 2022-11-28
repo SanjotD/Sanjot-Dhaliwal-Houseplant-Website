@@ -63,15 +63,15 @@ let percentScoreEl =
 let outOfScoreEl = (score);
 
 
-if (outOfScoreEl <= 1) {
+if (outOfScoreEl == 1) {
     outputMessageEl.innerHTML = ("Try Again.");
 }
 
-else if (outOfScoreEl <= 2){
+else if (outOfScoreEl == 2){
     outputMessageEl.innerHTML = ("Not bad!");
 }
 
- else if (outOfScoreEl <= 3) {
+ else if (outOfScoreEl == 3) {
     outputMessageEl.innerHTML = ("So Close!");
 }
 
